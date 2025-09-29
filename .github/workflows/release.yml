@@ -24,4 +24,4 @@ jobs:
       - name: Build and publish to GitHub Releases
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # built-in token
-        run: npm run dist
+        run: npm run dist:publish

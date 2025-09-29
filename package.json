@@ -15,7 +15,7 @@
       "package.json"
     ],
     "directories": {
-      "output": "dist"
+      "output": "release"
     },
     "win": {
       "target": "nsis",
@@ -45,6 +45,7 @@
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder --publish=never",
+    "dist:publish": "electron-builder --publish=always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
