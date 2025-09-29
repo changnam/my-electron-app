@@ -7,9 +7,15 @@
   "type": "commonjs",
   "main": "main.js",
   "build": {
+    "appId": "com.honsoft.myapp",
+    "productName": "MyElectronApp",
     "win": {
       "target": "nsis",
       "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   },
   "scripts": {
