@@ -29,7 +29,8 @@
       {
         "provider": "github",
         "owner": "changnam",
-        "repo": "my-electron-app"
+        "repo": "my-electron-app",
+        "releaseType": "release"  
       }
     ]
   },
