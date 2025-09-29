@@ -9,6 +9,14 @@
   "build": {
     "appId": "com.honsoft.myapp",
     "productName": "MyElectronApp",
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
     "win": {
       "target": "nsis",
       "signAndEditExecutable": false
