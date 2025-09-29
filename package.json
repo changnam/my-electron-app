@@ -11,6 +11,7 @@
     "productName": "MyElectronApp",
     "files": [
       "dist/**/*",
+      "renderer/**/*",
       "main.js",
       "package.json"
     ],
