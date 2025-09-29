@@ -30,13 +30,13 @@
         "provider": "github",
         "owner": "changnam",
         "repo": "my-electron-app",
-        "releaseType": "release"  
+        "releaseType": "release"
       }
     ]
   },
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --publish=always",
+    "dist": "electron-builder --publish=never",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
