@@ -6,8 +6,15 @@
   "author": "",
   "type": "commonjs",
   "main": "main.js",
+  "build": {
+    "win": {
+      "target": "nsis",
+      "signAndEditExecutable": false
+    }
+  },
   "scripts": {
     "start": "electron .",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
